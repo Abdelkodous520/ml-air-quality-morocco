@@ -1,0 +1,18 @@
+# Données brutes et fichiers générés volumineux
+Data/*.csv
+Data/*.parquet
+Data/*.json
+
+# Environnements et fichiers locaux
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+HOME/
+
+# Secrets et configuration locale
+.env
+.env.*
+!.env.example
+
