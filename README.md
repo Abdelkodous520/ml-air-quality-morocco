@@ -4,9 +4,9 @@ Projet de machine learning pour l'analyse et la modélisation temporelle de la q
 
 ## Contenu
 
-- `Scripts/` : téléchargement, préparation des données et entraînement des modèles temporels.
+- `Scripts/` : téléchargement, analyse exploratoire et entraînement des modèles temporels.
 - `Data/README_pollution_weather.md` : description des sources de données.
-- `Data/` : données locales et résultats générés (les gros fichiers CSV sont exclus du dépôt via `.gitignore`).
+- `Data/` : données locales et résultats générés (les fichiers CSV sont exclus du dépôt via `.gitignore`).
 
 ## Exécution
 
@@ -17,7 +17,9 @@ python Scripts/download_city_pollution_weather.py
 python Scripts/train_temporal_models.py
 ```
 
-Les notebooks de préparation et d'analyse se trouvent dans `Scripts/`.
+Le notebook d'analyse exploratoire se trouve dans `Scripts/morroco_city_analytics.ipynb`.
+
+Les résultats CSV sont générés à l'exécution et ne sont pas versionnés.
 
 ## Dépôt
 
